@@ -8,7 +8,7 @@ def wallis(n):
         a= 4*i**2
         b=a/(a-1)
         pi2=pi2*b
-    return pi2    
+    return 2*pi2    
 
 def monte_carlo(n):
     circle_=0
